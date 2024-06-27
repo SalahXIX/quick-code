@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+<style>
+  heading {
+    background-color: #CCCCCC;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items:self-end;
+  }
+
+  .head-buttons button {
+    font-size: 20px;
+    background-color: #CCCCCC;
+    border:none;
+    color: white;
+    padding-right:10px
+  }
+  
+  body{
+    background-color: #373737;
+    
+  }
+section{
+    margin-top: 20px;
+    display: flex;
+}
+ 
+img{
+    
+    max-width: 100%;
+    margin: 0 auto;
+    display:flex;
+    margin-bottom: 20px;
+
+}
+h1 {
+    padding-right: 200px;
+}
+
+p {
+    text-align:justify;
+    color:#CCCCCC
+}
+.below-header {
+      max-width: 70%; /* Set max-width for the container */
+      margin: 0 auto; /* Center the container horizontally */
+      text-align: center; /* Center align text within the container */
+    }
+
+.below-image{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    background-color: #303030;
+    color: #CCCCCC; 
+}
+
+</style>
+<title>First task</title>
+</head>
+<body>
+
+<heading>
+  <div class="head-title"></div> 
+  <h1>photo pro</h1>
+  <div class="head-buttons">
+    <button>services</button>
+    <button>photography </button>
+    <button>about</button>
+    <button>contact </button>
+  
+  </div>
+</heading>
+<div class="below-header">
+    <section>
+        <img src="https://w0.peakpx.com/wallpaper/226/432/HD-wallpaper-
+autumn-trees-on-green-grass-autumn-nature-trees-field.jpg" 
+    alt="trees during autumn">
+    </section>
+    <div class="below-image">
+        <div>
+            <h2> services</h2>
+            <p>Nullam ao lobortis erat. Gras non<br>
+                nibh mauris. Curabitur sed dolor eu<br>
+                urna loponis malesuaos a achelus<br>
+                Gras at est turpis. Morbi tempor eret<br>
+                utavove venenaris cursus. Nulam<br>
+                ullsmcoorper congue viet ut susipiet<br>
+                eros socales nos Froin ante orci<br>
+                dicium neo pulvinar non. molis at<br>
+                est. Duis ultrices aliquet tincidunt<br>
+                Donec eu libero arcu, non aliquet<br>
+                ordi. curaditur laginia leo non enim<br>
+                lacreet pellentesque</p>
+        </div>
+        <div>
+            <h2> portfolio</h2>
+            <p>Nullam ao lobortis erat. Gras non<br>
+                nibh mauris. Curabitur sed dolor eu<br>
+                urna loponis malesuaos a achelus<br>
+                Gras at est turpis. Morbi tempor eret<br>
+                utavove venenaris cursus. Nulam<br>
+                ullsmcoorper congue viet ut susipiet<br>
+                eros socales nos Froin ante orci<br>
+                dicium neo pulvinar non. molis at<br>
+                est. Duis ultrices aliquet tincidunt<br>
+                Donec eu libero arcu, non aliquet<br>
+                ordi. curaditur laginia leo non enim<br>
+                lacreet pellentesque</p>
+        </div>
+        <div>
+            <h2> about</h2>
+            <p>Nullam ao lobortis erat. Gras non<br>
+                nibh mauris. Curabitur sed dolor eu<br>
+                urna loponis malesuaos a achelus<br>
+                Gras at est turpis. Morbi tempor eret<br>
+                utavove venenaris cursus. Nulam<br>
+                ullsmcoorper congue viet ut susipiet<br>
+                eros socales nos Froin ante orci<br>
+                dicium neo pulvinar non. molis at<br>
+                est. Duis ultrices aliquet tincidunt<br>
+                Donec eu libero arcu, non aliquet<br>
+                ordi. curaditur laginia leo non enim<br>
+                lacreet pellentesque</p>
+        </div>
+    </div>
+</div>    
+</body>
+</html>
